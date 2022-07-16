@@ -18,7 +18,6 @@ body {
   margin: 0;
   height: 100vh;
   width: 100vw;
-  background: url("Effects/wave.svg") repeat-x, url("Effects/wave.svg") repeat-x, url("Effects/wave.svg") repeat-x;
   background-position: 3200px 80vh, -800px 70vh, 400px 65vh;
   z-index: -1;
   animation: wave 100s linear infinite;
@@ -46,9 +45,9 @@ body {
   min-height: 480px;
   max-height: 720px;
   aspect-ratio: 3/6;
-  background-color: #151525;
+  background-color: #65656d;
   border-radius: 8px;
-  box-shadow: #000c 10px 10px 3px;
+  box-shadow: rgba(0, 0, 0, 0.8) 10px 10px 3px;
 }
 
 a {
@@ -93,7 +92,7 @@ buttondiscord {
   min-height: 48px;
   max-height: 72px;
   height: 10%;
-  border: #335 solid 3px;
+  border: rgb(107, 107, 255) solid 3px;
   border-radius: 12px;
   margin: 0 2% 2% 2%;
   color:rgb(255, 255, 255);
