@@ -1,0 +1,176 @@
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300&display=swap');
+
+
+
+html {
+  color: white;
+  font-family: 'Comfortaa','Quicksand';
+  background-color: #2b1038;
+
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+body {
+  margin: 0;
+  height: 100vh;
+  width: 100vw;
+  background: url("Effects/wave.svg") repeat-x, url("Effects/wave.svg") repeat-x, url("Effects/wave.svg") repeat-x;
+  background-position: 3200px 80vh, -800px 70vh, 400px 65vh;
+  z-index: -1;
+  animation: wave 100s linear infinite;
+  background-color: #2b1038;
+}
+
+@keyframes wave {
+  50% {
+      background-position: -3200px 80vh, 2400px 70vh, -1200px 65vh;
+  }
+}
+
+.title {
+  color: rgb(65, 178, 223);
+  font-size: 18px;
+  font-family: 'Brush Script MT', cursive;
+}
+
+.card {
+  display: flex;
+  flex-direction: column;
+  margin: auto;
+  height: 60%;
+  width: 25%;
+  min-height: 480px;
+  max-height: 720px;
+  aspect-ratio: 3/6;
+  background-color: #151525;
+  border-radius: 8px;
+  box-shadow: #000c 10px 10px 3px;
+}
+
+a {
+  width: 43%;
+  display: inline-flex;
+  align-items: center;
+  min-height: 48px;
+  max-height: 72px;
+  height: 10%;
+  border: #335 solid 3px;
+  border-radius: 12px;
+  margin: 0 2% 2% 2%;
+  color:rgb(255, 255, 255);
+  font-family: 'Comfortaa','Quicksand';
+  background-color: #151525;
+  font-size: 20px;
+  text-align:center;
+}
+
+a:hover, a:hover {
+  opacity: 0.7;
+  font-family: 'Comfortaa','Quicksand';
+  display: inline-flex;
+  align-items: center;
+  min-height: 48px;
+  max-height: 72px;
+  height: 10%;
+  width: 43%;
+  border: #335 solid 3px;
+  border-radius: 12px;
+  margin: 0 2% 2% 2%;
+  text-decoration: underline;
+  font-size: 20px;
+
+  
+}
+
+buttondiscord {
+  width: 95%;
+  display: inline-flex;
+  align-items: center;
+  min-height: 48px;
+  max-height: 72px;
+  height: 10%;
+  border: #335 solid 3px;
+  border-radius: 12px;
+  margin: 0 2% 2% 2%;
+  color:rgb(255, 255, 255);
+  font-family: 'Comfortaa','Quicksand';
+  background-color: #151525;
+  font-size: 20px;
+  text-align:center;
+}
+
+buttondiscord:hover, a:hover {
+  opacity: 0.7;
+  font-family: 'Comfortaa','Quicksand';
+  display: inline-flex;
+  align-items: center;
+  min-height: 48px;
+  max-height: 72px;
+  height: 10%;
+  border: #335 solid 3px;
+  border-radius: 12px;
+  margin: 0 2% 2% 2%;
+  text-decoration: underline;
+  font-size: 20px;
+
+  
+}
+
+.h1 {
+  font-family: 'Brush Script MT', cursive;
+}
+
+h2 {
+  font-family: 'Brush Script MT', cursive;
+}
+
+title {
+  font-family: 'Brush Script MT', cursive;
+}
+
+.body {
+  height: 100vh;
+  width: 100vw;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+}
+
+html::-webkit-scrollbar {
+  display: none;
+}
+
+name {
+  font-family: 'Brush Script MT', cursive;
+}
+
+image {
+  width: 15%;
+}
+
+.tinted {
+  color: #fff5;
+  font-size: 12px;
+}
+
+#shoot {
+  aspect-ratio: 1;
+  width: 10%;
+  min-width: 128px;
+  margin-top: -5%;
+  border-radius: 5%;
+  border: rgb(182, 126, 174) solid 6px;
+}
+
+footer {
+  text-align: center;
+}
+
+.nickname {
+  margin-top: 2%;
+  font-size: 48px;
+}
