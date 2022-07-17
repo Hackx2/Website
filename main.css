@@ -160,7 +160,7 @@ buttondiscord {
   min-height: 48px;
   max-height: 72px;
   height: 10%;
-  border: rgb(107, 107, 255) solid 3px;
+  border: #335 solid 3px;
   border-radius: 12px;
   margin: 0 2% 2% 2%;
   color:rgb(255, 255, 255);
