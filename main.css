@@ -20,13 +20,13 @@ body {
   width: 100vw;
   background-position: 3200px 80vh, -800px 70vh, 400px 65vh;
   z-index: -1;
-  animation: wave 100s linear infinite;
+  animation: shiz 100s linear infinite;
   background-color: #2b1038;
 }
 
-@keyframes wave {
+@keyframes shiz {
   50% {
-      background-position: -3200px 80vh, 2400px 70vh, -1200px 65vh;
+      background-position: -3100px 80vh, 2400px 70vh, -1200px 65vh;
   }
 }
 
@@ -85,8 +85,76 @@ a:hover, a:hover {
   
 }
 
+b {
+  width: 43%;
+  display: inline-flex;
+  align-items: center;
+  min-height: 48px;
+  max-height: 72px;
+  height: 10%;
+  border: #335 solid 3px;
+  border-radius: 12px;
+  margin: 0 2% 2% 2%;
+  color:rgb(255, 255, 255);
+  font-family: 'Comfortaa','Quicksand';
+  background-color: #151525;
+  font-size: 20px;
+  text-align:center;
+}
+
+b:hover, a:hover {
+  opacity: 0.7;
+  font-family: 'Comfortaa','Quicksand';
+  display: inline-flex;
+  align-items: center;
+  min-height: 48px;
+  max-height: 72px;
+  height: 10%;
+  width: 43%;
+  border: #335 solid 3px;
+  border-radius: 12px;
+  margin: 0 2% 2% 2%;
+  text-decoration: underline;
+  font-size: 20px;
+
+}
+
+c {
+  width: 43%;
+  display: inline-flex;
+  align-items: center;
+  min-height: 48px;
+  max-height: 72px;
+  height: 10%;
+  border: #335 solid 3px;
+  border-radius: 12px;
+  margin: 0 2% 2% 2%;
+  color:rgb(255, 255, 255);
+  font-family: 'Comfortaa','Quicksand';
+  background-color: #151525;
+  font-size: 15px;
+  text-align:center;
+}
+
+c:hover, a:hover {
+  opacity: 0.7;
+  font-family: 'Comfortaa','Quicksand';
+  display: inline-flex;
+  align-items: center;
+  min-height: 48px;
+  max-height: 72px;
+  height: 10%;
+  width: 43%;
+  border: #335 solid 3px;
+  border-radius: 12px;
+  margin: 0 2% 2% 2%;
+  text-decoration: underline;
+  font-size: 15px;
+
+}
+
 buttondiscord {
-  width: 95%;
+  width:43%;
   display: inline-flex;
   align-items: center;
   min-height: 48px;
@@ -99,6 +167,7 @@ buttondiscord {
   font-family: 'Comfortaa','Quicksand';
   background-color: #151525;
   font-size: 20px;
+  text-align:center;
   text-align:center;
 }
 
@@ -115,6 +184,7 @@ buttondiscord:hover, a:hover {
   margin: 0 2% 2% 2%;
   text-decoration: underline;
   font-size: 20px;
+  text-align:center;
 
   
 }
