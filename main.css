@@ -1,11 +1,15 @@
+/*
 @import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@300&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300&display=swap');
+*/
+@import url('https://fonts.googleapis.com/css2?family=M+PLUS+Rounded+1c:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=M+PLUS+Rounded+1c&display=swap');
 
 
 
 html {
   color: white;
-  font-family: 'Comfortaa','Quicksand';
+  font-family: 'M PLUS Rounded 1c', sans-serif;;
 
   -webkit-user-select: none;
   -moz-user-select: none;
@@ -26,16 +30,6 @@ body {
 .title {
   color: rgb(65, 178, 223);
   font-size: 18px;
-  font-family: 'Brush Script MT', cursive;
-}
-
-#dpfp {
-  aspect-ratio: 1;
-  width: 10%;
-  min-width: 128px;
-  margin-top: -15%;
-  border-radius: 10%;
-  border: rgb(84, 37, 255) solid 5px;
 }
 
 .card {
@@ -51,6 +45,25 @@ body {
   box-shadow: #000c 10px 10px 3px;
 }
 
+#dpfp {
+  aspect-ratio: 1;
+  width: 10%;
+  min-width: 128px;
+  margin-top: -15%;
+  border-radius: 10%;
+  border: #ff9 solid 5px;
+}
+
+object {
+  display: inline-block;
+  max-height: 90%;
+  aspect-ratio: 1;
+}
+
+img {
+  vertical-align:middle;
+}
+
 .buttons {
   display: flex;
   align-items: end;
@@ -62,13 +75,12 @@ body {
   align-items: center;
   min-height: 48px;
   max-height: 72px;
-  height: 10%;
+  height: 5%;
   width: 45%;
   border: rgb(53, 53, 255) solid 3px;
   background-color: #6d0197;
   border-radius: 12px;
-  margin: 0 2% 2% 2%;
-  font-family: 'Comfortaa','Quicksand';
+  margin: 2% 2% 2% 2%;
 }
 
 button.gamebanana {
@@ -84,6 +96,11 @@ button.gamebanana {
 .button:hover>div>span {
   text-decoration: underline;
 }
+.discord {
+  width: 95%;
+}
+
+
 
 .center {
   display: inline-flex;
@@ -92,7 +109,7 @@ button.gamebanana {
   margin: auto;
 }
 
-.bio {
+.aboutme {
   width: 94%;
   height: 100%;
   vertical-align: middle;
