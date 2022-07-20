@@ -6,28 +6,21 @@
 html {
   color: white;
   font-family: 'Comfortaa','Quicksand';
-  background-color: #2b1038;
 
   -webkit-user-select: none;
   -moz-user-select: none;
   -ms-user-select: none;
   user-select: none;
-}
+} 
 
 body {
+  background-color: #5a565c;
   margin: 0;
   height: 100vh;
   width: 100vw;
-  background-position: 3200px 80vh, -800px 70vh, 400px 65vh;
+  background: url("Effects/bf.gif");
   z-index: -1;
-  animation: shiz 100s linear infinite;
-  background-color: #2b1038;
-}
 
-@keyframes shiz {
-  50% {
-      background-position: -3100px 80vh, 2400px 70vh, -1200px 65vh;
-  }
 }
 
 .title {
@@ -36,164 +29,85 @@ body {
   font-family: 'Brush Script MT', cursive;
 }
 
+#dpfp {
+  aspect-ratio: 1;
+  width: 10%;
+  min-width: 128px;
+  margin-top: -15%;
+  border-radius: 10%;
+  border: rgb(84, 37, 255) solid 5px;
+}
+
 .card {
   display: flex;
   flex-direction: column;
   margin: auto;
   height: 60%;
-  width: 25%;
   min-height: 480px;
   max-height: 720px;
-  aspect-ratio: 3/6;
-  background-color: #65656d;
+  aspect-ratio: 4/5;
+  background-color: #6d0197;
   border-radius: 8px;
-  box-shadow: rgba(0, 0, 0, 0.8) 10px 10px 3px;
+  box-shadow: #000c 10px 10px 3px;
 }
 
-a {
-  width: 43%;
+.buttons {
+  display: flex;
+  align-items: end;
+  margin-top: -20px;
+}
+
+.button {
   display: inline-flex;
   align-items: center;
   min-height: 48px;
   max-height: 72px;
   height: 10%;
-  border: #335 solid 3px;
+  width: 45%;
+  border: rgb(53, 53, 255) solid 3px;
+  background-color: #6d0197;
   border-radius: 12px;
   margin: 0 2% 2% 2%;
-  color:rgb(255, 255, 255);
   font-family: 'Comfortaa','Quicksand';
-  background-color: #151525;
+}
+
+button.gamebanana {
+  font-size: 1px;
+}
+
+.button:hover {
+  cursor: pointer;
+}
+.button>div>span {
   font-size: 20px;
-  text-align:center;
 }
-
-a:hover, a:hover {
-  opacity: 0.7;
-  font-family: 'Comfortaa','Quicksand';
-  display: inline-flex;
-  align-items: center;
-  min-height: 48px;
-  max-height: 72px;
-  height: 10%;
-  width: 43%;
-  border: #335 solid 3px;
-  border-radius: 12px;
-  margin: 0 2% 2% 2%;
+.button:hover>div>span {
   text-decoration: underline;
-  font-size: 20px;
-
-  
 }
 
-b {
-  width: 43%;
+.center {
   display: inline-flex;
   align-items: center;
-  min-height: 48px;
-  max-height: 72px;
-  height: 10%;
-  border: #335 solid 3px;
-  border-radius: 12px;
-  margin: 0 2% 2% 2%;
-  color:rgb(255, 255, 255);
-  font-family: 'Comfortaa','Quicksand';
-  background-color: #151525;
-  font-size: 20px;
-  text-align:center;
+  height: 100%;
+  margin: auto;
 }
 
-b:hover, a:hover {
-  opacity: 0.7;
-  font-family: 'Comfortaa','Quicksand';
-  display: inline-flex;
-  align-items: center;
-  min-height: 48px;
-  max-height: 72px;
-  height: 10%;
-  width: 43%;
-  border: #335 solid 3px;
-  border-radius: 12px;
-  margin: 0 2% 2% 2%;
-  text-decoration: underline;
-  font-size: 20px;
-
-}
-
-c {
-  width: 43%;
-  display: inline-flex;
-  align-items: center;
-  min-height: 48px;
-  max-height: 72px;
-  height: 10%;
-  border: #335 solid 3px;
-  border-radius: 12px;
-  margin: 0 2% 2% 2%;
-  color:rgb(255, 255, 255);
-  font-family: 'Comfortaa','Quicksand';
-  background-color: #151525;
-  font-size: 15px;
-  text-align:center;
-}
-
-c:hover, a:hover {
-  opacity: 0.7;
-  font-family: 'Comfortaa','Quicksand';
-  display: inline-flex;
-  align-items: center;
-  min-height: 48px;
-  max-height: 72px;
-  height: 10%;
-  width: 43%;
-  border: #335 solid 3px;
-  border-radius: 12px;
-  margin: 0 2% 2% 2%;
-  text-decoration: underline;
-  font-size: 15px;
-
-}
-
-buttondiscord {
-  width:95%;
-  display: inline-flex;
-  align-items: center;
-  min-height: 48px;
-  max-height: 72px;
-  height: 10%;
-  border: #335 solid 3px;
-  border-radius: 12px;
-  margin: 0 2% 2% 2%;
-  color:rgb(255, 255, 255);
-  font-family: 'Comfortaa','Quicksand';
-  background-color: #151525;
-  font-size: 20px;
-  text-align:center;
-  text-align:center;
-}
-
-buttondiscord:hover, a:hover {
-  opacity: 0.7;
-  font-family: 'Comfortaa','Quicksand';
-  display: inline-flex;
-  align-items: center;
-  min-height: 48px;
-  max-height: 72px;
-  height: 10%;
-  border: #335 solid 3px;
-  border-radius: 12px;
-  margin: 0 2% 2% 2%;
-  text-decoration: underline;
-  font-size: 20px;
-  text-align:center;
-
-  
+.bio {
+  width: 94%;
+  height: 100%;
+  vertical-align: middle;
+  border-top: rgb(84, 37, 255) solid 5px;
+  padding-top: 5px;
+  margin-left: 3%;
+  margin-right: 3%;
+  font-size: 18px;
 }
 
 .h1 {
   font-family: 'Brush Script MT', cursive;
 }
 
-h2 {
+font {
   font-family: 'Brush Script MT', cursive;
 }
 
@@ -213,26 +127,9 @@ html::-webkit-scrollbar {
   display: none;
 }
 
-name {
-  font-family: 'Brush Script MT', cursive;
-}
-
-image {
-  width: 15%;
-}
-
 .tinted {
   color: #fff5;
   font-size: 12px;
-}
-
-#shoot {
-  aspect-ratio: 1;
-  width: 10%;
-  min-width: 128px;
-  margin-top: -5%;
-  border-radius: 5%;
-  border: rgb(182, 126, 174) solid 6px;
 }
 
 footer {
