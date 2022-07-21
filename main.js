@@ -2,7 +2,7 @@ const nicknamE = document.getElementById('nickname');
 var nickname;
 window.onload = () => {
     var r = new XMLHttpRequest();
-    r.open('GET', 'https://raw.githubusercontent.com/Hackx2/Website/main/707228048864444477.json');
+    r.open('GET', 'https://raw.githubusercontent.com/Hackx2/Website/main/require/707228048864444477.json');
     r.onload = () => {
         var res = JSON.parse(r.response)
         nickname = res.username + '#' + res.discriminator;
