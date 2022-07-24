@@ -1,5 +1,11 @@
 const nicknamE = document.getElementById('nickname');
+const doc = document;
+const menuOpen = doc.querySelector(".menu");
+const menuClose = doc.querySelector(".close");
+const overlay = doc.querySelector(".overlay");
+
 var nickname;
+
 window.onload = () => {
     var r = new XMLHttpRequest();
     r.open('GET', 'https://raw.githubusercontent.com/Hackx2/Website/main/require/707228048864444477.json');
@@ -19,6 +25,14 @@ function meow() {
 function href(name) {
     location.href = name
 }
+
+menuOpen.addEventListener("click", () => {
+    overlay.classList.add("overlay--active");
+  });
+  
+  menuClose.addEventListener("click", () => {
+    overlay.classList.remove("overlay--active");
+  });
 
 
 

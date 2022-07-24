@@ -1,0 +1,306 @@
+@import url('https://fonts.googleapis.com/css2?family=M+PLUS+Rounded+1c:wght@700&display=swap');
+/*@import url('https://fonts.googleapis.com/css2?family=M+PLUS+Rounded+1c&display=swap');*/
+
+
+
+
+html {
+  color: white;
+  font-family: 'M PLUS Rounded 1c', sans-serif;
+
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+} 
+
+body {
+  background-color: #5a565c;
+  margin: 0;
+  height: 100vh;
+  width: 100vw;
+  background: url("../src/ily.gif");
+  z-index: -1;
+
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 5px 10%;
+  background-color: #24252a;
+}
+
+.title {
+  color: rgb(65, 178, 223);
+  font-size: 18px;
+}
+
+.card {
+  display: flex;
+  flex-direction: column;
+  margin: auto;
+  height: 90%;
+  min-height: 480px;
+  max-height: 1920px;
+  aspect-ratio: 4/5;
+  background-color: #6d0197;
+  border-radius: 8px;
+ /* box-shadow: #000c 10px 10px 3px; */
+}
+
+#dpfp {
+  aspect-ratio: 1;
+  width: 10%;
+  min-width: 128px;
+  margin-top: -15%;
+  border-radius: 10%;
+  border: #ff9 solid 5px;
+}
+
+object {
+  display: inline-block;
+  max-height: 90%;
+  aspect-ratio: 1;
+}
+
+img {
+  vertical-align:middle;
+}
+
+.buttons {
+  display: flex;
+  align-items: end;
+  margin-top: -20px;
+}
+
+.button {
+  display: inline-flex;
+  align-items: center;
+  min-height: 48px;
+  max-height: 72px;
+  height: 5%;
+  width: 45%;
+  border: rgb(53, 53, 255) solid 3px;
+  background-color: #6d0197;
+  border-radius: 12px;
+  margin: 2% 2% 2% 2%;
+}
+
+button.gamebanana {
+  font-size: 1px;
+}
+
+.button:hover {
+  cursor: pointer;
+}
+.button>div>span {
+  font-size: 20px;
+}
+.button:hover>div>span {
+  text-decoration: underline;
+}
+.discord {
+  width: 95%;
+}
+
+
+
+.center {
+  display: inline-flex;
+  align-items: center;
+  height: 100%;
+  margin: auto;
+}
+
+.aboutme {
+  width: 94%;
+  height: 100%;
+  vertical-align: middle;
+  border-top: rgb(84, 37, 255) solid 5px;
+  padding-top: 5px;
+  margin-left: 3%;
+  margin-right: 3%;
+  font-size: 18px;
+}
+
+.h1 {
+  font-family: 'Brush Script MT', cursive;
+}
+
+font {
+  font-family: 'Brush Script MT', cursive;
+}
+
+title {
+  font-family: 'Brush Script MT', cursive;
+}
+
+.body {
+  height: 100vh;
+  width: 100vw;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+}
+
+html::-webkit-scrollbar {
+  display: none;
+}
+
+.tinted {
+  color: #fff5;
+  font-size: 12px;
+}
+
+footer {
+  text-align: center;
+}
+
+.nickname {
+  margin-top: 2%;
+  font-size: 48px;
+}
+
+/* Top Bar Now :tr: */
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 10%;
+  background-color: #24252a;
+  font-family: 'M PLUS Rounded 1c', sans-serif;
+}
+
+.logo {
+  cursor: pointer;
+  order: 3;
+  margin-left: auto;
+}
+
+nav {
+  order: 1;
+}
+
+.nav__links a,
+.cta,
+.overlay__content a {
+  font-family: 'M PLUS Rounded 1c', sans-serif;
+  font-weight: 500;
+  color: #edf0f1;
+  text-decoration: none;
+}
+
+.nav__links {
+  list-style: none;
+  display: flex;
+  font-size: 16px;
+}
+
+.nav__links li {
+  padding: 0px 20px;
+}
+
+.nav__links li:nth-child(1) {
+  padding: 0 20px 0 0;
+}
+
+.nav__links li a {
+  transition: all 0.3s ease 0s;
+}
+
+.nav__links li a:hover {
+  color: #0088a9;
+}
+
+.cta {
+  order: 2;
+  margin-left: 20px;
+  padding: 9px 25px;
+  background-color: rgba(0, 136, 169, 1);
+  border: none;
+  border-radius: 50px;
+  cursor: pointer;
+  transition: all 0.3s ease 0s;
+}
+
+.cta:hover {
+  background-color: rgba(0, 136, 169, 0.8);
+}
+
+/* Mobile Nav */
+
+.menu {
+  display: none;
+}
+
+.overlay {
+  height: 100%;
+  width: 0;
+  position: fixed;
+  z-index: 1;
+  left: 0;
+  top: 0;
+  background-color: #24252a;
+  overflow-x: hidden;
+  transition: all 0.5s ease 0s;
+}
+
+.overlay--active {
+  width: 100%;
+}
+
+.overlay__content {
+  display: flex;
+  height: 100%;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.overlay a {
+  padding: 15px;
+  font-size: 36px;
+  display: block;
+  transition: all 0.3s ease 0s;
+}
+
+.overlay a:hover,
+.overlay a:focus {
+  color: #0088a9;
+}
+.overlay .close {
+  position: absolute;
+  top: 20px;
+  right: 45px;
+  font-size: 60px;
+  color: #edf0f1;
+}
+
+@media screen and (max-height: 450px) {
+  .overlay a {
+    font-size: 20px;
+  }
+  .overlay .close {
+    font-size: 40px;
+    top: 15px;
+    right: 35px;
+  }
+}
+
+@media only screen and (max-width: 800px) {
+  .nav__links,
+  .cta {
+    display: none;
+  }
+  .menu {
+    display: initial;
+  }
+}

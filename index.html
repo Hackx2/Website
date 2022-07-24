@@ -3,14 +3,38 @@
 
 <html>
 <head>
-<title>HackTheAir</title>
-<link rel="stylesheet" href="main.css"> 
+<title>HackTheAir - Card</title>
+<link rel="stylesheet" href="./src/main.css"> 
+<meta name="viewport" content="width=device-width, initial-scale=1">
 </head>
 <body>
 <div class=body> 
+<!-- Top Bar -->
+
+<header>
+  <a class="logo" href="/"></a>
+  <nav>
+      <ul class="nav__links">
+         <li><a href="./links/Links.html">Links</a></li>
+          <li><a href="./index.html">Card</a></li>
+      </ul>
+  </nav>
+  <a class="cta" href="./index.html">Contact</a>
+  <p class="menu cta">Menu</p>
+</header>
+<div id="mobile__menu" class="overlay">
+  <a class="close">&times;</a>
+  <div class="overlay__content">
+    <li><a href="./links/Links.html">Links</a></li>
+     <li><a href="./index.html">Card</a></li>
+  </div>
+</div>
+
+<!-- Top Bar -->
+
   <div class="card">
     <div class=profile>
-      <br> <br>
+      <img src="./assets/me.png" alt="nsfw" style="width:30%; align-self: center;"><br>
       <span class=nickname>HackTheAir</span><br>
     </div>
   
@@ -19,36 +43,36 @@
       ngl no one uses pronouns<br>
       Minecraft, FNF, Roblox, gib robux<br>
       :D<br>
-      <img src="Emojis/tr.png" alt="nsfw" style="width:15%; align-self: center;"><br>
+      <img src="./src/Emojis/tr.png" alt="nsfw" style="width:15%; align-self: center;"><br>
       <br>
     </div>
 
     <div class=buttons>
       <div class="button twitter" onclick='href("https://twitter.com/AnimatesHack")'>
         <div class=center>
-          <object data="icons/twitter.svg"></object>
+          <object data="./src/twitter.svg"></object>
           <span>Twitter</span>
         </div>
       </div>
     <div class="button github" onclick='href("https://github.com/Hackx2")'>
         <div class=center>
-          <object data="icons/github.svg"; style="width:30%;"></object>
+          <object data="./src/github.svg"; style="width:30%;"></object>
           <span>GitHub</span>
         </div>
       </div>
     </div>
   <div class="button discord" onclick='meow()'>
     <div class=center>
-      <object data="icons/discord.svg"></object>
+      <object data="./src/discord.svg"></object>
       <span id=nickname>N/A</span>
       </div>
     </div>
   </div>
-  <span class="footer">Among us</span>
+ <!-- <span class="footer">Among us</span> --> 
   </div>
   </body>
 </div>
 
-<script src="main.js"></script>
+<script src="./src/main.js"></script>
 
 </html>
