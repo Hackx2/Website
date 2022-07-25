@@ -41,12 +41,12 @@ header {
   display: flex;
   flex-direction: column;
   margin: auto;
-  height: 90%;
-  min-height: 480px;
-  max-height: 1920px;
+  height: 20%;
+  min-height: 280px;
+  max-height: 920px;
   aspect-ratio: 4/5;
   background-color: #6d0197;
-  border-radius: 8px;
+  border-radius: 7px;
  /* box-shadow: #000c 10px 10px 3px; */
 }
 
@@ -84,6 +84,19 @@ img {
   width: 45%;
   border: rgb(53, 53, 255) solid 3px;
   background-color: #6d0197;
+  border-radius: 12px;
+  margin: 2% 2% 2% 2%;
+}
+
+.button.SunsetEngine {
+  display: inline-flex;
+  align-items: center;
+  min-height: 48px;
+  max-height: 72px;
+  height: 5%;
+  width: 45%;
+  border: rgb(79, 79, 80) solid 3px;
+  background-color: #000000;
   border-radius: 12px;
   margin: 2% 2% 2% 2%;
 }
